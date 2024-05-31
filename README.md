@@ -12,3 +12,5 @@ A bug whereby a process, when writing to a buffer, writes outside the space allo
 3. Overflow of a variable on the stack
 4. Overwriting SEIP with the shellcode address
 <img src="Buffer1.png" width="70%">
+
+## Integer Overflow
