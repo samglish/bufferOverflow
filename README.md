@@ -6,9 +6,9 @@ copy data without checking size.
 A bug whereby a process, when writing to a buffer, writes outside the space allocated to the buffer, thus overwriting information necessary for the process.
 <hr>
 
-### Current operation
-1. Stack Overflow
-2. shellcode injection
-3. capacity overrun
-4. SEIP overwrite
+## Most common exploitation
+1. stack overflow
+2. Injection of a shellcode on the stack and calculation of its address
+3. Overflow of a variable on the stack
+4. Overwriting SEIP with the shellcode address
 <img src="Buffer1.png" width="70%">
