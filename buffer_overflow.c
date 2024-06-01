@@ -14,11 +14,13 @@ int check_authentification(char * password){
 }
 int maim(int argc, char* argv[]){
     if(argc<2){
-        printf("Usage: %s &lt;password&gt;\n", argb[0]);
+        printf("Usage: %s &lt;password&gt;\n", argv[0]);
         exit(0);
     }
-    if(check_authentification(argb[1])){
+    if(check_authentification(argv[1])){
         printf("Acces granted\n");
-} else{
+} else 
+{
     printf("Acces denied\n");
+}
 }
