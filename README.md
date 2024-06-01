@@ -136,3 +136,17 @@ output
 (gdb) break 26
 Breakpoint 1 at 0x11ab: file overflow.c, line 26.
 ```
+3. run the program
+```
+(gdb) run AAAAAAAAAAAAAAAA
+```
+output
+
+```
+Starting program: Directory/BOF AAAAAAAAAAAAAAAA
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe038) at overflow.c:26
+26	       strcpy(buffer, argv[1]);
+(gdb) 
+
+```
