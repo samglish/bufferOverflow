@@ -18,7 +18,7 @@ int maim(int argc, char* argv[]){
         exit(0);
     }
     if(check_authentification(argb[1])){
-        printf("Acces granted\n")
+        printf("Acces granted\n");
 } else{
     printf("Acces denied\n");
 }
