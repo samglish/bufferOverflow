@@ -89,3 +89,18 @@ Reading symbols from ./BOF...
 ```
 (gdb) list 1
 ```
+output
+
+```
+1	// A C program to demonstrate buffer overflow
+2	#include <stdio.h>
+3	#include <string.h>
+4	#include <stdlib.h>
+5	 
+6	int main(int argc, char *argv[])
+7	{
+8	 
+9	       // Reserve 5 byte of buffer plus the terminating NULL.
+10	       // should allocate 8 bytes = 2 double words,
+(gdb) 
+```
