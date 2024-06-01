@@ -48,3 +48,11 @@ int main(int argc, char *argv[])
        return 0;
 }
 ```
+## Test
+Open terminal
+```terminal
+gcc -g -o BOF overflow.c
+```
+```output
+
+```
