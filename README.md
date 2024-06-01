@@ -85,3 +85,7 @@ output
 Reading symbols from ./BOF...
 (gdb) 
 ```
+1. list the program
+```
+(gdb) list 1
+```
