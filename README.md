@@ -162,3 +162,5 @@ output
 0x7fffffffdf3b:"001"
 (gdb) 
 ```
+for more information on the use of content visit click here
+<a href="https://bufferoverflows.net/getting-started-with-linux-buffer-overflow/">https://bufferoverflows.net/getting-started-with-linux-buffer-overflow/</a>
