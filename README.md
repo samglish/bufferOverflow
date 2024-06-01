@@ -103,5 +103,36 @@ output
 9	       // Reserve 5 byte of buffer plus the terminating NULL.
 10	       // should allocate 8 bytes = 2 double words,
 (gdb) 
+11	       // To overflow, need more than 8 bytes...
+12	       char buffer[5];  // If more than 8 characters input
+13	                        // by user, there will be access 
+14	                        // violation, segmentation fault
+15	 
+16	       // a prompt how to execute the program...
+17	       if (argc < 2)
+18	       {
+19	              printf("strcpy() NOT executed....\n");
+20	              printf("Syntax: %s <characters>\n", argv[0]);
+(gdb) 
+21	              exit(0);
+22	       }
+23	 
+24	       // copy the user input to mybuffer, without any
+25	       // bound checking a secure version is strcpy_s()
+26	       strcpy(buffer, argv[1]);
+27	       printf("buffer content= %s\n", buffer);
+28	 
+29	       // you may want to try strcpy_s()
+30	       printf("strcpy() executed...\n");
 ```
 2. breakpoint ( gdb will stop your program just before that function is called)
+
+``` 
+(gdb) break 26
+```
+output
+
+```
+(gdb) break 26
+Breakpoint 1 at 0x11ab: file overflow.c, line 26.
+```
