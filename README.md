@@ -54,9 +54,11 @@ Open terminal
 ```terminal
 gcc -g -o BOF testoverflow.c
 ```
+2. execute
 ```terminal
 ./BOF sam
 ```
+3. output
 
 ```
 buffer content= sam
