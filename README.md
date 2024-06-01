@@ -76,3 +76,12 @@ buffer content= beididinasamuel
 strcpy() executed...
 Erreur de segmentation
 ```
+### exploit, use GDB in terminal
+```
+$gdb -q ./BOF 
+```
+output
+```
+Reading symbols from ./BOF...
+(gdb) 
+```
