@@ -50,9 +50,15 @@ int main(int argc, char *argv[])
 ```
 ## Test
 Open terminal
+1. compile the program
 ```terminal
-gcc -g -o BOF overflow.c
+gcc -g -o BOF testoverflow.c
 ```
-```output
+```terminal
+./BOF sam
+```
 
+```output
+buffer content= sam
+strcpy() executed...
 ```
