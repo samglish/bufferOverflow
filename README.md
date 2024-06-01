@@ -104,3 +104,4 @@ output
 10	       // should allocate 8 bytes = 2 double words,
 (gdb) 
 ```
+2. breakpoint ( gdb will stop your program just before that function is called)
