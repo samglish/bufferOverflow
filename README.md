@@ -151,3 +151,5 @@ Breakpoint 1, main (argc=2, argv=0x7fffffffe038) at overflow.c:26
 
 ```
 the program stopped at line 26
+
+### let's analyze the data of the variable
