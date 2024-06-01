@@ -159,6 +159,6 @@ the program stopped at line 26
 ```
 output
 ```
-0x7fffffffdf3b:	""
+0x7fffffffdf3b:"001"
 (gdb) 
 ```
