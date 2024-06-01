@@ -58,7 +58,7 @@ gcc -g -o BOF testoverflow.c
 ./BOF sam
 ```
 
-```output
+```
 buffer content= sam
 strcpy() executed...
 ```
