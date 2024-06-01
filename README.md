@@ -64,3 +64,15 @@ gcc -g -o BOF testoverflow.c
 buffer content= sam
 strcpy() executed...
 ```
+
+### now enter more than 8 characters.
+```
+./BOF beididinasamuel
+```
+output
+
+```
+buffer content= beididinasamuel
+strcpy() executed...
+Erreur de segmentation
+```
